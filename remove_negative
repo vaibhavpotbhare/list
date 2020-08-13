@@ -1,0 +1,15 @@
+list1=[12,-7,5,64,-14]
+list2=[12,14,-95,3]
+list3=[]
+
+print("Output:",end="")
+for i in list1:
+    if i > 0:
+      print(i, end=",")
+
+print("\n")
+print("Output:",end="")
+for i in list2:
+    if i>0:
+        list3.append(i)
+print(list3)
